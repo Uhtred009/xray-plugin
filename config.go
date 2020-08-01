@@ -75,7 +75,7 @@ func getConfig() (*Config, error) {
 		return nil, errors.New("failed to load config: ", configFile).Base(err)
 	}
 	
-	// defer configInput.Close()
+	
 
 	cfg := &config{}
 	if err = decodeCommentJSON(configInput, cfg); err != nil {
@@ -87,7 +87,7 @@ func getConfig() (*Config, error) {
 			return nil, err
 		}
 	}
-
+        defer configInput.Close()	
 	return cfg.SSRPanel, err
 }
 
