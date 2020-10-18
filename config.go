@@ -13,7 +13,7 @@ import (
 	"v2ray.com/core/common/platform"
 	"v2ray.com/core/common/protocol"
 	"v2ray.com/core/main/confloader"
-	json_reader "v2ray.com/ext/encoding/json"
+	json_reader "v2ray.com/core/infra/conf/json"
 	"v2ray.com/core/infra/conf"
 )
 
