@@ -14,7 +14,7 @@ import (
 	"v2ray.com/core/common/protocol"
 	"v2ray.com/core/main/confloader"
 	json_reader "v2ray.com/ext/encoding/json"
-	"v2ray.com/ext/tools/conf"
+	"v2ray.com/core/infra/conf"
 )
 
 var (
