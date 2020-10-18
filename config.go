@@ -87,7 +87,7 @@ func getConfig() (*Config, error) {
 			return nil, err
 		}
 	}
-        defer configInput.Close()	
+      //  defer configInput.Close()	
 	return cfg.SSRPanel, err
 }
 
