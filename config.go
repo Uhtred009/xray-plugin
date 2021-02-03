@@ -11,8 +11,8 @@ import (
 	"strings"
 	"github.com/Uhtred009/Xray-server/common/errors"
 	"github.com/Uhtred009/Xray-server/common/platform"
-	"github.com/Uhtred009/Xray-server/core/common/protocol"
-	"v2ray.com/core/main/confloader"
+	"github.com/Uhtred009/Xray-server/common/protocol"
+	"github.com/Uhtred009/Xray-server/main/confloader"
 	json_reader "github.com/Uhtred009/Xray-server/infra/conf/json"
 	"github.com/Uhtred009/Xray-server/infra/conf"
 )
