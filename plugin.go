@@ -5,7 +5,7 @@ import (
 	"google.golang.org/grpc/status"
 	"os"
 	"time"
-	"v2ray.com/core/common/errors"
+	"github.com/Uhtred009/Xray-server/common/errors"
 )
 
 func init() {
